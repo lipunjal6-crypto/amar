@@ -1,0 +1,90 @@
+,h1{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    display: flex 12px;
+    
+}
+.body{
+    text-align: center;
+    background-color: aquamarine;
+}
+.img{
+    size: 222px;
+    width: 300px;
+    height: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;  /* vertical center */
+  gap: 100px;            /* image aur text ke beech gap */
+}
+
+.header img {
+  height: 80px;
+  width: 80px;
+}
+
+.te h1, .te h2 {
+  margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+
+    width: 300px;
+    margin: 50px; 
+    font-family:Arial, sans-serif;
+}
+.input,button{
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    
+}
+.lebel{
+    font-weight: bold;
+     text-align: center;
+
+
+}
+h1, .sub {
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 8px;
+  width: 250px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.header img {
+  width: 100px;   /* jitna chhota chahiye utna change karo */
+  height: auto;   /* image distort nahi hogi */
+}
+form{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

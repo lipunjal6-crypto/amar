@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;  /* vertical center */
+  gap: 100px;            /* image aur text ke beech gap */
+  background-color: aqua;
+}
+
+.header img {
+  height: 80px;
+  width: 80px;
+}
+form{
+  width: 400px;
+  margin: 100px auto;
+  background-color: rgb(81, 165, 42);
+  padding: 100px;
+  border-radius: 10px;
+
+}
